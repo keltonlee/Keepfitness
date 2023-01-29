@@ -14,8 +14,8 @@ Based on the data entered by the user such as height, weight, gender, etc. to ca
 (2) Commentary for Fitness menu
 Through the uses's fitness intensity, the system provides the fitness menu specified for the intensity and the explanation of each item.
 
-(3) Dietary recommendations
+(3) Dietary recommendations  
 Through dietary intensity, the system provides the recommended nutrients for that specific intensity.
 
-(4) Dietary inquiries
+(4) Dietary inquiries  
 Users can choose various types of food just like online shopping, and settle the details of the ingredients of the selected food.
