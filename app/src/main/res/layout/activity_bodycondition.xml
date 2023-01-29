@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c2340">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--logo-->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="65dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo">
+        </ImageView>
+
+        <!--身體質量評估-->
+        <TextView
+            android:id="@+id/bodycondition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身體質量評估"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!--人-->
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/body">
+            </ImageView>
+
+            <!--右邊的黃線-->
+            <View
+                android:layout_height="10px"
+                android:background="#ffde59"
+                android:layout_width="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="40dp">
+            </View>
+
+            <!--左邊的黃線-->
+            <View
+                android:layout_height="10px"
+                android:background="#ffde59"
+                android:layout_width="60dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="130dp"
+                android:layout_marginRight="40dp">
+            </View>
+
+            <!--右邊的資料-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="80dp">
+
+                <!--BMI-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BMI："
+                        android:textStyle="bold"
+                        android:textColor="#ffde59"
+                        android:layout_gravity="center_horizontal">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/BMI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59">
+                    </TextView>
+                </LinearLayout>
+
+                <!--身高-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="身高："
+                        android:textStyle="bold"
+                        android:textColor="#ffde59"
+                        android:layout_gravity="center_horizontal">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/height"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="180"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="cm"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59"
+                        android:layout_gravity="center_horizontal">
+                    </TextView>
+                </LinearLayout>
+
+                <!--體重-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="體重："
+                        android:textStyle="bold"
+                        android:textColor="#ffde59"
+                        android:layout_gravity="center_horizontal">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="70"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="kg"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59"
+                        android:layout_gravity="center_horizontal">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--左邊的資料-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <!--體脂-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="240dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="體脂率："
+                        android:textStyle="bold"
+                        android:textColor="#ffde59"
+                        android:layout_gravity="center_horizontal">
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/body_fat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="％"
+                        android:textStyle="bold"
+                        android:textColor="#ffde59">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="根據您的身體狀況\n我們將您歸類為──"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+        </TextView>
+
+        <!--強度-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="強度 "
+                android:textSize="30dp"
+                android:textColor="#e83c00"
+                android:textStyle="bold">
+            </TextView>
+
+            <TextView
+                android:id="@+id/level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textSize="30dp"
+                android:textColor="#e83c00"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+
+        <!--線-->
+        <View
+            android:layout_height="7px"
+            android:background="#6b9eb4"
+            android:layout_width="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="體重指數BMI=體重(kg)/身高平方(m)²"
+            android:textSize="17dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <!--返回按鈕-->
+        <Button
+            android:id="@+id/returnbtn"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:background="@drawable/bluebutton"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+    </LinearLayout>
+
+</ScrollView>

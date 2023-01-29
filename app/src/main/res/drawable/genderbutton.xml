@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <shape>
+            <solid android:color="#a6a6a6"/>
+        </shape>
+    </item>
+    <item android:state_checked="false">
+        <shape>
+            <solid android:color="#dde3e1"/>
+        </shape>
+    </item>
+</selector>

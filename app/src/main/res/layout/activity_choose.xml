@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0c2340">
+
+    <!--logo-->
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal">
+    </ImageView>
+
+    <Button
+        android:id="@+id/workout"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="健身菜單"
+        android:background="#e1fdae"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/diet"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="飲食菜單"
+        android:background="#e1fdae"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/bodycondition"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:text="身體質量評估表"
+        android:textStyle="bold"
+        android:background="#a0c3cb"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:src="@drawable/setting"
+            app:tint="@color/white" />
+        <TextView
+            android:id="@+id/edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 修改個人資料"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

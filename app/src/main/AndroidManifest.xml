@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="com.example.keepfitness">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:name=".Globalclass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Keepfitness"
+        android:networkSecurityConfig="@xml/network_security_config">
+        <activity android:name=".StartActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Register"/>
+        <activity android:name=".ChooseActivity"/>
+        <activity android:name=".bodycondition"/>
+        <activity android:name=".DietActivity"/>
+        <activity android:name=".workoutmenu"/>
+        <activity android:name=".workoutday.day1"/>
+        <activity android:name=".workoutday.day2"/>
+        <activity android:name=".workoutday.day3"/>
+        <activity android:name=".workoutday.day4"/>
+        <activity android:name=".workoutday.day5"/>
+        <activity android:name=".workoutday.day6"/>
+        <activity android:name=".workoutday.day7"/>
+        <activity android:name=".descriptionday.description1"/>
+        <activity android:name=".descriptionday.description2"/>
+        <activity android:name=".descriptionday.description4"/>
+        <activity android:name=".descriptionday.description5"/>
+        <activity android:name=".OwnDietActivity"/>
+        <activity android:name=".TypeActivity"/>
+        <activity android:name=".views.MyMenu"/>
+    </application>
+
+</manifest>

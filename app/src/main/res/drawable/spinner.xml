@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    //第一組item 圓角邊框
+    <item>
+        <shape>
+            <stroke
+                android:width="2dp"
+                android:color="#B6B4B4"
+                />    //邊框線顏色
+            <corners android:radius="5dp" />      //圓角度數
+            <solid android:color="#F4A460" >      //背景顏色
+            </solid>
+            <padding android:right="5dp" />       //邊距
+            <size
+                android:width="200dp"
+                android:height="100dp"
+                />
+        </shape>
+    </item>
+    //第二組item spinner箭頭圖示
+    <item>
+        <bitmap
+            android:gravity="end"
+            android:src="@drawable/arrow"
+            android:antialias="true"
+            android:tint="#FFFFFF"
+            />
+    </item>
+</layer-list>

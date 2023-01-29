@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/press"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0c2340"
+    android:clickable="true">
+
+    <ImageView
+        android:layout_width="233dp"
+        android:layout_height="161dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/training" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffff33"
+        android:textSize="50sp"
+        android:layout_marginTop="15dp"
+        android:text="KEEP FITNESS"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_marginTop="5dp"
+        android:text="─ 你的身材管理小幫手"/>
+    <TextView
+        android:id="@+id/flash_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginTop="100dp"
+        android:text="─ 點擊畫面以繼續 ─"/>
+
+
+</LinearLayout>

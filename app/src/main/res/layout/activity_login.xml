@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0c2340">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--logo-->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="65dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo">
+        </ImageView>
+
+        <!--登入-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="登入"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!--輸入名字-->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="#e1fdae"
+            android:orientation="horizontal"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="姓名："
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:paddingTop="22.5dp"
+                android:paddingLeft="10dp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/Name"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:hint="請輸入姓名"
+                android:paddingLeft="10dp"
+                android:singleLine="true">
+            </EditText>
+        </LinearLayout>
+
+        <!--輸入信箱-->
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:background="#e1fdae"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="信箱："
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:paddingTop="22.5dp"
+                android:paddingLeft="10dp">
+            </TextView>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="220dp"
+                android:layout_height="match_parent"
+                android:hint="請輸入信箱"
+                android:paddingLeft="10dp"
+                android:singleLine="true"/>
+        </LinearLayout>
+
+        <!--送出按鈕-->
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="送出"
+            android:textColor="@color/white"
+            android:background="@drawable/bluebutton"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal" />
+
+        <!--沒有帳號嗎 點我註冊-->
+        <TextView
+            android:id="@+id/registerbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"/>
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+

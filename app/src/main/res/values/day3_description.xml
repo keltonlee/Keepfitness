@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="description">
+        <font color="#black">說明：</font>
+        <font color="#545454">從下列動作中挑選3個。每項做30秒至一分鐘，接著繼續下一個動作，全部做完後，休息15至30秒，然後總共重複三到四輪。</font>
+    </string>
+</resources>

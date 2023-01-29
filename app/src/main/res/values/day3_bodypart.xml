@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="body_part">
+        <font color="#black">訓練部位：</font>
+        <font color="#545454">心肺耐力、核心肌群、下肢、肩膀</font>
+    </string>
+</resources>

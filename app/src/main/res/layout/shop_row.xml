@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="product"
+            type="com.example.keepfitness.models.Product" />
+
+        <variable
+            name="shopInterface"
+            type="com.example.keepfitness.adapters.ShopListAdapter.ShopInterface" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@{product.name}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1" />
+
+
+        <TextView
+            android:id="@+id/calories_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{String.valueOf(product.calories) + ` kcal/100g`}"
+            android:layout_gravity="center"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textColor="#00BCD4" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/AddToCart"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"
+            android:text="Add To Diet"
+            android:onClick="@{() -> shopInterface.addItem(product)}"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+            android:textColor="@color/colorAccent" />
+
+    </LinearLayout>
+</layout>
