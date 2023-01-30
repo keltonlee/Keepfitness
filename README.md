@@ -22,7 +22,7 @@ Users can choose various types of food just like online shopping, and settle the
 
 ## Tools and Techniques
 Frontend:
- - Android java on Android studio
+ - Android java on Android Studio
 
 Backend:
  - Database: MySQL, managed via PHPMyAdmin
