@@ -19,3 +19,14 @@ Through dietary intensity, the system provides the recommended nutrients for tha
 
 (4) Dietary inquiries:  
 Users can choose various types of food just like online shopping, and settle the details of the ingredients of the selected food.
+
+## Tools and Techniques
+Frontend:
+ - Android java on Android studio
+
+Backend:
+ - Database: MySQL, managed via PHPMyAdmin
+ - Server-side scripting: PHP
+ - Communication between the frontend and backend: PHP APIs
+
+## Demo
