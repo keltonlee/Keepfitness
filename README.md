@@ -42,4 +42,4 @@ Backend:
 
 
 ## What did I learned
-This is a project I have done with other teamates during sophomore year. It's pretty challenging at first since there were no one who have the knowlegde of Android java. In this project, I'v done all of the parts of designing database(Normalization) and the backend part of the php(importing data and providing api for frontend). Also, I'v done the part of getting api from php on the Android side. It's always a fun experience exploring new technique and languages!
+This is a project I have done during sophomore year. It's pretty challenging at first since there were no one who have the knowlegde of Android java. In this project, I'v done all of the parts of designing database(Normalization) and the backend part of the php(importing data and providing api for frontend). Also, I'v done the part of getting api from php on the Android side. It's always a fun experience exploring new technique and languages!
